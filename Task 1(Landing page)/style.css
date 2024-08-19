@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    /* background-image: url(https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0); */
+    /* background-image: url(https://th.bing.com/th/id/R.bb111331cf161382f8fb6024c75b8141?rik=uBiSvGwGNhB2fQ&riu=http%3a%2f%2fmedia1.popsugar-assets.com%2ffiles%2f2021%2f01%2f14%2f843%2fn%2f1922507%2f588e803b0911a665_marek-piwnicki-NxGcrC8sLss-unsplash%2fi%2fStarry-Night-Zoom-Background.jpg&ehk=c99D9eqEUnMjd%2ffaFmoh8uq9Ob212Yekgt%2blphxm9Pk%3d&risl=&pid=ImgRaw&r=0); */
+    background-image: url(https://silvercode.com.au/wp-content/uploads/2021/01/woman-coding-on-laptop.jpg);
+
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    /* background-image: url(https://wonderfulengineering.com/wp-content/uploads/2016/01/phone-wallpaper-andriod-2-576x1024.jpg); */
+    /* background-image: url(https://m.psecn.photoshelter.com/img-get/I0000s_U9p8i_CR8/s/1200/I0000s_U9p8i_CR8.jpg); */
+    background-image: url(https://st2.depositphotos.com/1003924/6299/i/450/depositphotos_62996297-stock-photo-computer-crime-concept.jpg);
+
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 220px;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    /* background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg); */
+    background-image: url(https://csharp-station.com/wp-content/uploads/2019/08/Person-coding-on-laptop-1200x794.jpg);
+
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    /* background-image: url(https://wallpaperbat.com/img/755950-sea-tree-purple-sky-nature-red-wallpaper.jpg); */
+    background-image: url(https://th.bing.com/th/id/OIP.pRSPaYJvobMKnMdID45a9gHaE8?rs=1&pid=ImgDetMain);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    /* background-image: url(https://live.staticflickr.com/7092/7233975154_4a1eaa833e_b.jpg); */
+    background-image: url(https://jooinn.com/images/coding-and-programming-computer-science-and-it.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.344);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://miro.medium.com/proxy/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg);
+    color: white;
+
+    /* background-image: url(https://th.bing.com/th/id/R.c09e5b294f91a936a4388e6d89c1fc9a?rik=2blM9cFZ55lUzg&riu=http%3a%2f%2fmedia1.popsugar-assets.com%2ffiles%2f2021%2f01%2f14%2f843%2fn%2f1922507%2f20cc7971df62af1f_photoholgic-Q3atOFHMkKs-unsplash%2fi%2fFluffy-Clouds-Zoom-Background.jpg&ehk=XQVf3sZv9jCCk6mIkbV7mOwcihoAvgOyBVdgrTMKkZ8%3d&risl=&pid=ImgRaw&r=0); */
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+}
+
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 .up{
+        min-height: 40vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+}
